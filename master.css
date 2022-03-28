@@ -1,0 +1,185 @@
+/*******NOTES*******/
+
+/*
+
+TAG styles are the least specific. INLINE CSS coding (like <body style="blah">) take precedence
+
+CLASS and ID styles are stronger and take priority over Inline coding
+
+ID is special since only ONE thing can have that attribute
+
+CLASS can be used many times with different objects
+
+*/
+
+/************************TAG SECTOR******************/
+black = #171717
+grey = #444444
+red = #DA0037
+white = #EDEDED
+
+img {
+  background-color: #444444;
+  margin: 0;
+}
+
+body {
+  background-color: #444444;
+  margin: 0;
+
+}
+
+h1 {
+  color: #EDEDED;
+  display: inline-block;
+  font-weight: normal;
+  /* line-height: 1.2; */
+  font-size: 55px;
+  font-family: 'Roboto', sans-serif;
+  width: 20px;
+  text-align: right;
+  margin-left: 10%;
+
+}
+/* h2:hover {
+  color: black;
+} */
+h2 {
+  color: #EDEDED;
+}
+h3 {
+  color: #EDEDED;
+
+}
+h4 {
+  color: #EDEDED;
+}
+
+li {
+  color: #EDEDED;
+}
+
+
+/************************CLASS SECTOR******************/
+.icon {
+  display: inline;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+}
+
+.links {
+  font-size: 22px;
+  margin-top: 22px;
+  width: 100%;
+  position: relative;
+}
+
+.link1 {
+  position: absolute;
+  left:12%
+}
+.link2 {
+  position: absolute;
+  left:46%
+}
+.link3 {
+  position: absolute;
+  right:15.8%
+}
+
+.blankspace {
+  position: block;
+  height: 200px;
+}
+
+.topcontainer {
+  margin-top: 22px;
+  margin-bottom: 180px;
+  background-color: #444444;
+}
+
+.profile {
+  /* position: absolute; */
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.middlecontainer1 {
+}
+
+
+.middlecontainer2 {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.image1 {
+  margin: 0px;
+  background-color: #444444;
+
+
+}
+.image2 {
+  margin: 0px;
+  background-color: #444444;
+  position: relative;
+}
+
+.contact_me {
+  width: 50%;
+  text-align: center;
+}
+
+.footer_link1 {
+  position: absolute;
+  left:39%;
+}
+
+.footer_link2 {
+  position: absolute;
+  left:48%;
+}
+
+.footer_link3 {
+  position: absolute;
+  left:55%;
+}
+
+.condor {
+  background-color: #EDEDED;
+}
+
+.ostrich {
+  border-radius: 70%;
+  background-color: #EDEDED;
+  width: 500px;
+}
+.ostrich:hover {
+  width: 800px;
+}
+
+.make_circle {
+  border-radius: 7%;
+}
+
+.skills{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  /* margin-left: 25%;
+  margin-right: 25%; */
+}
+
+/************************ID SECTOR******************/
+
+#heading {
+  color: pink;
+}
