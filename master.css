@@ -76,15 +76,15 @@ li {
 
 .link1 {
   position: absolute;
-  left:12%
+  left:12%;
 }
 .link2 {
   position: absolute;
-  left:46%
+  left:45.5%;
 }
 .link3 {
   position: absolute;
-  right:15.8%
+  right:15.8%;
 }
 
 .blankspace {
@@ -139,12 +139,12 @@ li {
 
 .footer_link2 {
   position: absolute;
-  left:48%;
+  left:48.5%;
 }
 
 .footer_link3 {
   position: absolute;
-  left:55%;
+  left:56%;
 }
 
 .condor {
@@ -176,6 +176,13 @@ li {
   margin: auto;
   /* margin-left: 25%;
   margin-right: 25%; */
+}
+
+.bottomhr {
+  border-style: dashed;
+  border-color: #EDEDED;
+  border-radius: 100px;
+  border-spacing: 10px;
 }
 
 /************************ID SECTOR******************/
